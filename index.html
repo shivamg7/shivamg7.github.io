@@ -1,1 +1,68 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shivam Gupta</title>
+    <meta
+      name="description"
+      content="Shivam Gupta, software engineer in Bangalore."
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header-section">
+        <div class="header-frame">
+          <h1>Shivam Gupta</h1>
+          <h2>Software Engineer in Bangalore</h2>
+        </div>
+        <div class="img-frame">
+          <img id="propic" src="face.jpg" alt="My Face" />
+        </div>
+      </div>
+      <div class="links">
+        <a href="http://github.com/shivamg7">github</a>
+        <a href="mailto:shivamxav@gmail.com">email</a>
+      </div>
+      <div class="bio-switcher">
+        <div class="toggler">
+          <button id="short" class="show">Short</button>
+          <button id="long">Long</button>
+          <button id="speaker">Speaker</button>
+        </div>
+        <div class="bio short show">
+          Hi there! My name is Shivam and I'm a Software Engineer
+          Engineer at
+          <a
+            href="https://www.soroco.com/?utm_source=shivamg7"
+            >Soroco</a
+          >. I often spend time reading books and playing music.
+        </div>
+        <div class="bio long">
+          Well hello there! My name is Shivam and I'm a Software Engineer
+          at
+          <a
+            href="https://www.soroco.com/"
+            >Soroco</a
+          >. I've joined right after I completed my graduation from R.V. College, Bangalore.
+          Where I majored in Information science. <br />
+          Watch this space for more soon. 
+        </div>
+        <div class="speaker">
+          Soon
+        </div>
+      </div>
+      <div class="dark-mode-toggler">
+        <input type="checkbox" id="toggler" />
+        <label for="toggler" aria-label="Toggler for Dark Mode"></label>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
